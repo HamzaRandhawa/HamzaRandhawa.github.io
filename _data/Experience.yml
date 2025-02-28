@@ -2,7 +2,7 @@ subject: Experiences
 listing-order: 2
 icon: "/assets/img/briefcase.svg"
 contents:
-  - title: [FRAG Games](https://www.frag-games.com)
+  - title: FRAG Games(https://www.frag-games.com)
     role: Game and AI Engineer
     description:
       - Optimized Path-finding work for cross-platform AA games in Unity C# by developing the Parallel computing algorithm Jump Point Search (JPS) which proved to be two magnitudes faster than previously used A*. Details are mentioned below.
