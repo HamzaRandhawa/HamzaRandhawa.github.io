@@ -11,15 +11,14 @@ contents:
       - Wrote Unit Tests for an AA game using Unity Unit Testing Framework implementing the TDD practice.
       - Worked on the role-playing adventure game WrestleQues for the developer Mega Cat Studios and publisher Skybound Games.
     date: July 2022 - Ongoing
-  - title: Amazone
-    role: Senior Software Engineer
+  - title: Delta Labs
+    role: Backend Developer
     description: 
-      - Built a Java microservice, database schema to manage customer accounts
-      - Enhanced internal pipelines to query real-time data from client devices
-    date: Apr. 2016 - Dec. 2018
-  - title: Pacebook
-    role: Software Engineer Intern
-    description: 
-      - Designed the dynamic website using React for data visualization
-      - Integrated '*Yolo*' to boost the accuracy of the object detection
-    date: Jul. 2013 - Sep. 2013
+      - Managed Back and Front end of reactive web apps with complex database structures using Ruby on Rails and React.
+    date: Jan. 2021 - Apr. 2020
+  # - title: Pacebook
+  #   role: Software Engineer Intern
+  #   description: 
+  #     - Designed the dynamic website using React for data visualization
+  #     - Integrated '*Yolo*' to boost the accuracy of the object detection
+  #   date: Jul. 2013 - Sep. 2013
