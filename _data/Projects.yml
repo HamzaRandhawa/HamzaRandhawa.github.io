@@ -18,7 +18,7 @@ contents:
     description: 
       - Implemented a life program simulating the behavior of a flock of birds, school of fishes, or herd of land animals designed by Craig Reynolds in his paper '[Flocks, Herds, and Schools A Distributed Behavioral Model (1986)](https://dl.acm.org/doi/10.1145/37402.37406)'. The Program adds behaviors of Separation, Alignment, and Cohesion in NPCs.
 
-      - "Technology Used: Python, Cuda, Objective-C++"
+      - "Technology Used: Boid Algorithm, Artificial Intelligence (AI), Behavior Simulation, NPC AI, Steering Behaviors (Separation, Alignment, Cohesion), Game Physics, Unity, C#"
     image: "![](https://i.ibb.co/R9150c4/12421323.webp)"
   - title: " [WrestleQuest](https://www.wrestlequest.com/en)" 
     description: 
