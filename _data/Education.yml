@@ -8,8 +8,8 @@ contents:
       - Development of AI-driven strategy games like Chess      
       - Developed Data Science Cricket Analysis project CricInsights which gives comparison of all-time cricket player stats with the same sample space
       - Learning microcontroller programming and building path-finding robot-cars
-      grade: "**GPA**: `3.53/4.0`"    
-      date: Oct. 2016 - Jul. 2020
+    grade: "**GPA**: `3.53/4.0`"    
+    date: Oct. 2016 - Jul. 2020
   - title: Stanfort University, MA in Computer Science
     description:
       - Development of deep learning algorithms for automatically tracking the facial expressions
