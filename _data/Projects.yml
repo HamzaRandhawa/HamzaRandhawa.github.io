@@ -4,7 +4,7 @@ icon: "/assets/img/clipboard-list.svg"
 contents:
   - title: "ChattyVR"
     description: 
-      - Embodied Conversational Agent (ECA) developed based on a large language model, under the supervision of AI Scientist at Apple- "[Dr. Aamer Zaheer](https://www.linkedin.com/in/aamerzaheer/)"
+      - Embodied Conversational Agent (ECA) developed based on a large language model, under the supervision of AI Scientist at Apple- [Dr. Aamer Zaheer](https://www.linkedin.com/in/aamerzaheer/)
       - Mimicked the facial expressions of the agent according to the expression of the voice
       - "Technology Used: Unity, APIs, C#"
     image: "![](https://i.ibb.co/hX2wYLB/231321.webp)"
