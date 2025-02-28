@@ -7,7 +7,7 @@ contents:
       - Embodied Conversational Agent (ECA) developed based on a large language model, under the supervision of AI Scientist at Apple- [Dr. Aamer Zaheer](https://www.linkedin.com/in/aamerzaheer/)
       - Mimicked the facial expressions of the agent according to the expression of the voice
       - "Technology Used: Large Language Models (LLMs), Embodied Conversational Agents (ECA), Facial Expression Recognition, Speech-to-Text (STT), Text-to-Speech (TTS), Unity, APIs, C#"
-    image: "![](https://i.ibb.co/hX2wYLB/231321.webp)"
+    # image: "![](https://i.ibb.co/hX2wYLB/231321.webp)"
   - title: "Jump Point Search"
     description: 
       - In pursuit of solving the latency problem in finding paths in AA games complex 2D grid maps, engineered a new algorithm optimizing the A* algorithm by carefully only exploring those nodes which could be turning or jump points.  
