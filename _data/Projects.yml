@@ -2,13 +2,13 @@ subject: Projects
 listing-order: 3
 icon: "/assets/img/clipboard-list.svg"
 contents:
-  - title: "ChatPPT ([https://chat.opena1.com/](https://chat.openai.com/))"
+  - title: "ChattyVR"
     description: 
-      - Chatbot developed based on a large language model
-      - Designed Generative algorithm to generate novel human-like content
-      - "Technology Used: Rust, Typescript, Python, Ruby"
+      - Embodied Conversational Agent (ECA) developed based on a large language model, under the supervision of AI Scientist at Apple- "[Dr. Aamer Zaheer](https://www.linkedin.com/in/aamerzaheer/)"
+      - Mimicked the facial expressions of the agent according to the expression of the voice
+      - "Technology Used: Unity, APIs, C#"
     image: "![](https://i.ibb.co/hX2wYLB/231321.webp)"
-  - title: "AW5-cli ([https://github.com/aw5/aw5-cli](https://github.com/aws/aws-cli))"
+  - title: "Jump Point Search"
     description: 
       - Universal Command Line Interface for Amazone Web Services
       - Developed a scheme to facilitate users’ authentication without having to remember their credentials
