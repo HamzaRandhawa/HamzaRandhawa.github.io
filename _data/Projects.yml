@@ -20,11 +20,11 @@ contents:
 
       - "Technology Used: Boid Algorithm, Artificial Intelligence (AI), Behavior Simulation, NPC AI, Steering Behaviors (Separation, Alignment, Cohesion), Game Physics, Unity, C#"
     image: "![](https://i.ibb.co/R9150c4/12421323.webp)"
-  - title: " [WrestleQuest](https://www.wrestlequest.com/en)" 
+  - title: " [WrestleQuest](https://www.wrestlequest.com/en)"
     description: 
       - Optimized NPC Pathfinding to improve movement efficiency and reduce latency in complex game environments
       - Resolved critical physics performance issues by optimizing collision detection and rigid body interactions, ensuring smoother gameplay
       - Debugged and fixed game-breaking bugs during the release phase, enhancing overall game stability and player experience.
       - Conducted performance profiling using Unity Profiler to identify and eliminate bottlenecks, improving frame rates and responsiveness.
       - "Technology Used: Unity, C#, Pathfinding Optimization, Physics Optimization, NPC AI, Performance Profiling, Debugging, Game Development"
-    image: "![](assets/files/WQCollage.png)"
+    image: "![](assets/files/WQCollage.png)(https://www.wrestlequest.com/en)"
