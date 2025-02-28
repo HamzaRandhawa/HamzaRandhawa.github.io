@@ -16,7 +16,7 @@ contents:
     image: "![](https://i.ibb.co/Ttb5Qn9/21321312.webp)"
   - title: "Boids" 
     description: 
-      - Implemented a life program simulating the behavior of a flock of birds, school of fishes, or herd of land animals designed by Craig Reynolds in his paper "Flocks, Herds, and Schools: A Distributed Behavioral Model (1986)". The Program adds behaviors of Separation, Alignment, and Cohesion in NPCs.
+      - Implemented a life program simulating the behavior of a flock of birds, school of fishes, or herd of land animals designed by Craig Reynolds in his paper '[Flocks, Herds, and Schools A Distributed Behavioral Model (1986)](https://dl.acm.org/doi/10.1145/37402.37406)'. The Program adds behaviors of Separation, Alignment, and Cohesion in NPCs.
 
       - "Technology Used: Python, Cuda, Objective-C++"
     image: "![](https://i.ibb.co/R9150c4/12421323.webp)"
