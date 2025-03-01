@@ -3,7 +3,7 @@ listing-order: 7
 icon: "/assets/img/globe.svg"
 contents:
   - title: "Urdu ('*Native*'): <span style='color: goldenrod; margin: auto 8px; font-family: cursive;'>●●●●●</span>"
-  - title: "Punjabi: <span style='color: indianred; margin: auto 8px; font-family: cursive;'>●●●○○</span>"
   - title: "English: <span style='color: cornflowerblue; margin: auto 8px; font-family: cursive;'>●●●◐○</span>"
-  - title: "Persian: <span style='color: cornflowerblue; margin: auto 8px; font-family: cursive;'>●●●◐○</span>"
-  - title: "Arabic: <span style='color: cornflowerblue; margin: auto 8px; font-family: cursive;'>●●●◐○</span>"
+  - title: "Punjabi: <span style='color: indianred; margin: auto 8px; font-family: cursive;'>●●●○○</span>"
+  - title: "Persian: <span style='color: cornflowerblue; margin: auto 8px; font-family: cursive;'>●●○◐○</span>"
+  - title: "Arabic: <span style='color: navy; margin: auto 8px; font-family: cursive;'>●●○◐○</span>"
