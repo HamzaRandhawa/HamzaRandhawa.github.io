@@ -15,7 +15,7 @@ contents:
     #   - "Technology Used: AI, C#, Jump Point Search (JPS), Pathfinding Optimization, 2D Grid-Based Navigation"
     # image: "![](https://i.ibb.co/Ttb5Qn9/21321312.webp)"
     # image: ""
-  - title: "Simultaneous Localization and Mapping(SLAM) for Autonomous Robots" 
+  - title: "Simultaneous Localization and Mapping(SLAM) for Autonomous Robots"
     # description: 
     #   - Implemented a life program simulating the behavior of a flock of birds, school of fishes, or herd of land animals designed by Craig Reynolds in his paper '[Flocks, Herds, and Schools A Distributed Behavioral Model (1986)](https://dl.acm.org/doi/10.1145/37402.37406)'. The Program adds behaviors of Separation, Alignment, and Cohesion in NPCs.
 
@@ -30,4 +30,4 @@ contents:
     #   - Conducted performance profiling using Unity Profiler to identify and eliminate bottlenecks, improving frame rates and responsiveness.
     #   - "Technology Used: Unity, C#, Pathfinding Optimization, Physics Optimization, NPC AI, Performance Profiling, Debugging, Game Development"
     # image: "![](assets/files/WQCollage.png)"
-    grade: "**I am looking for a research position in high-impact Research group. See more details** [here](/application)."
+    grade: "**I am looking for a research position in high-impact research group. See more details** [here](/application)."
