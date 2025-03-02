@@ -1,6 +1,6 @@
 subject: research Interests
 listing-order: 0
-icon: "resources/svgs/regular/lightbulb.svg"
+icon: "/resources/svgs/regular/lightbulb.svg"
 contents:
   - title: "ChattyVR"
     description: 
