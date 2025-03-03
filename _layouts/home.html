@@ -64,15 +64,15 @@
           </a></li>
         {% endif %}
         {% if site.instagram_username %}
-          <li><a aria-label="My Instagram" href="https://www.instagram.com/{{ site.instagram_username }}">
+<!--           <li><a aria-label="My Instagram" href="https://www.instagram.com/{{ site.instagram_username }}">
             <img src="{{ '/assets/img/instagram.svg' | prepend: site.baseurl }}" alt="My Instagram">
             <div><span>@{{ site.instagram_username }}</span></div>
-          </a></li>
+          </a></li> -->
         {% endif %}
         {% if site.facebook_username %}
-          <li><a aria-label="My Facebook" href="https://www.facebook.com/{{ site.facebook_username }}">
+<!--           <li><a aria-label="My Facebook" href="https://www.facebook.com/{{ site.facebook_username }}">
             <img src="{{ '/assets/img/facebook.svg' | prepend: site.baseurl }}" alt="My Facebook">
-            <div><span>@{{ site.facebook_username }}</span></div>
+            <div><span>@{{ site.facebook_username }}</span></div> -->
           </a></li>
         {% endif %}
         {% if site.leetcode_username %}
@@ -82,10 +82,10 @@
           </a></li>
         {% endif %}
         {% if site.youtube_username %}
-          <li><a aria-label="My Youtube" href="https://www.youtube.com/{{ site.youtube_username }}">
+<!--           <li><a aria-label="My Youtube" href="https://www.youtube.com/{{ site.youtube_username }}">
             <img src="{{ '/assets/img/youtube.svg' | prepend: site.baseurl }}" alt="My Youtube">
             <div><span>@{{ site.youtube_username }}</span></div>
-          </a></li>
+          </a></li> -->
         {% endif %}
         {% if site.blog_url %}
           <li><a aria-label="My Blog" href="{{ site.blog_url }}">
@@ -139,7 +139,9 @@
                           {% endfor %}
                         </ul>
                       {% else %}
+                        <div class= "list-image">
                         {{ item[1] | markdownify }}
+                        </div>
                       {% endif %}
                     {% endif %}
                   {% endfor %}
