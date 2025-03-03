@@ -21,6 +21,11 @@
     --theme4-dark: #3D725D;
     --font-dark: #202424;
 }
+    
+html, body {
+    margin:0;
+    padding:0;
+}
 
 body { 
     margin:0 auto;
@@ -283,11 +288,7 @@ a { text-decoration:none; }
     //   color: white;
     //   cursor: pointer;
     // }
-    
-    // html, body {
-    //     margin:0;
-    //     padding:0;
-    // }
+
 
     ul { margin-bottom: 3rem; }
 
