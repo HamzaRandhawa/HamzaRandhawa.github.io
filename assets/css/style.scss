@@ -55,7 +55,7 @@
 
 .video-thumbnail-container:hover .play-button {
     transform: translate(-50%, -50%) scale(1.2);
-    background: rgba(255, 0, 0, 0.8); /* Red highlight */
+    background: --theme4-medium; /* Red highlight */
 }
 
     // .play-button {
@@ -115,7 +115,7 @@
 }
 .close-btn:hover {
   transform: scale(1.2);
-  color: #ff4c4c; /* Red highlight */
+  color: --theme4-medium; /* Red highlight */
 }
     // ---------------------------------------------------------------
     // .video-modal {
