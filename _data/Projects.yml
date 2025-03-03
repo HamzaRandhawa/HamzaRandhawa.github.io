@@ -8,10 +8,8 @@ contents:
       - Mimicked the facial expressions of the agent according to the expression of the voice
       - "Technology Used: Large Language Models (LLMs), Embodied Conversational Agents (ECA), Facial Expression Recognition, Speech-to-Text (STT), Text-to-Speech (TTS), Unity, APIs, C#"
     # image: "![](https://i.ibb.co/hX2wYLB/231321.webp)"
-    thumbnail: "assets/files/WQCollage.png"
-    # video_url: "https://www.youtube.com/watch?v=EtNagNezo8w&ab_channel=AntonPidkuiko"
-    video_url: "https://drive.google.com/file/d/1EF9DPNgq1LbWRNiyZdY_epwZZ8Q9Jc72/view"
-    # video_url: "assets/videos/boids_compressed.mp4"
+
+
   - title: "Jump Point Search"
     description: 
       - In pursuit of solving the latency problem in finding paths in AA games complex 2D grid maps, engineered a new algorithm optimizing the A* algorithm by carefully only exploring those nodes which could be turning or jump points.  
@@ -25,7 +23,10 @@ contents:
 
       - "Technology Used: Boid Algorithm, Artificial Intelligence (AI), Behavior Simulation, NPC AI, Steering Behaviors (Separation, Alignment, Cohesion), Game Physics, Unity, C#"
     image: ""
-    video_url: "https://www.example.com/video.mp4"
+    thumbnail: "assets/files/WQCollage.png"
+    # video_url: "https://www.youtube.com/watch?v=EtNagNezo8w&ab_channel=AntonPidkuiko"
+    # video_url: "https://drive.google.com/file/d/1EF9DPNgq1LbWRNiyZdY_epwZZ8Q9Jc72/view"
+    video_url: "assets/videos/boids_compressed.mp4"
     # image: "![](https://i.ibb.co/R9150c4/12421323.webp)"
   - title: " [WrestleQuest](https://www.wrestlequest.com/en)"
     description: 
