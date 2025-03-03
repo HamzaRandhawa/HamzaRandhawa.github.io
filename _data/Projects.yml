@@ -9,8 +9,8 @@ contents:
       - "Technology Used: Large Language Models (LLMs), Embodied Conversational Agents (ECA), Facial Expression Recognition, Speech-to-Text (STT), Text-to-Speech (TTS), Unity, APIs, C#"
     # image: "![](https://i.ibb.co/hX2wYLB/231321.webp)"
     thumbnail: "assets/files/WQCollage.png"
-    # video_url: "https://drive.google.com/file/d/1EF9DPNgq1LbWRNiyZdY_epwZZ8Q9Jc72/view"
-    video_url: "assets/videos/boids_compressed.mp4"
+    video_url: "https://drive.google.com/file/d/1EF9DPNgq1LbWRNiyZdY_epwZZ8Q9Jc72/view"
+    # video_url: "assets/videos/boids_compressed.mp4"
   - title: "Jump Point Search"
     description: 
       - In pursuit of solving the latency problem in finding paths in AA games complex 2D grid maps, engineered a new algorithm optimizing the A* algorithm by carefully only exploring those nodes which could be turning or jump points.  
