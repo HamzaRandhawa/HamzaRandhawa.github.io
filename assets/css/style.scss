@@ -191,6 +191,10 @@ a { text-decoration:none; }
         }
     }
 
+    .list-image{
+        max-width: 600px; 
+    }
+
     .profile-zone .profile-img {
         width:192px;
         aspect-ratio:1.0;
@@ -559,10 +563,13 @@ a { text-decoration:none; }
             background: var(--theme3-medium);
             transition: all 0.5s;
             cursor: pointer;
-
+            
             a {     
                 color: var(--font-dark);
                 text-shadow: 1px 1px 1px rgba(255,255,255,0.75); 
+            }
+            a: hover {
+                color: var(--theme1-medium)
             }
         }
 
@@ -580,6 +587,6 @@ a { text-decoration:none; }
         margin: auto;
         max-width: 1024px;
 
-        img { max-width: 100%; }
+        img { max-width: 700px; }
     }
 }
