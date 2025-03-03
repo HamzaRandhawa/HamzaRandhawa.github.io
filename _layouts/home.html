@@ -126,9 +126,10 @@
                     {% if item[0] != "title" and item[0] != "date" %}
                       {% if item[0] == "video_url" and member.thumbnail %}
                         <!-- Clickable Thumbnail for Video -->
-                        <a href="{{ item[1] }}" target="_blank">
-                          <img src="{{ member.thumbnail }}" alt="Watch Video" class="video-thumbnail" width="400">
-                        </a>
+                        <div class="video-thumbnail-container" onclick="openVideoModal('{{ item[1] }}')">
+                          <img src="{{ member.thumbnail }}" alt="Watch Video" class="video-thumbnail">
+                          <div class="play-button">▶</div>
+                        </div>
                       {% elsif item[1].first %}
                         <ul>
                           {% for subitem in item[1] %}
@@ -149,6 +150,13 @@
       {% endfor %}
       </ul>
   </div>
+  <!-- Video Modal (Hidden by Default) -->
+  <div id="videoModal" class="video-modal">
+    <div class="video-modal-content">
+      <span class="close-btn" onclick="closeVideoModal()">&times;</span>
+      <iframe id="videoFrame" src="" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </div>
   <div id="footer">
     <span>
       Copyright © 2024 | <a href="https://github.com/byanko55">Yankos</a>
@@ -156,4 +164,5 @@
   </div>
 </body>
 <script src="{{ '/assets/js/main.js' | prepend: site.baseurl }}"></script>
+<script src="{{ '/assets/js/video-modal.js' | prepend: site.baseurl }}"></script>
 </html>
