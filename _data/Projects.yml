@@ -31,4 +31,4 @@ contents:
       - Debugged and fixed game-breaking bugs during the release phase, enhancing overall game stability and player experience.
       - Conducted performance profiling using Unity Profiler to identify and eliminate bottlenecks, improving frame rates and responsiveness.
       - "Technology Used: Unity, C#, Pathfinding Optimization, Physics Optimization, NPC AI, Performance Profiling, Debugging, Game Development"
-    image: "![](assets/files/WQCollage.png)"
+    image: "![](assets/img/WQCollage_small.png)"
