@@ -2,32 +2,28 @@ subject: Projects
 listing-order: 3
 icon: "/assets/img/clipboard-list.svg"
 contents:
-  - title: "ChattyVR"
-    description: 
-      - Embodied Conversational Agent (ECA) developed based on a large language model, under the supervision of AI Scientist at Apple- [Dr. Aamer Zaheer](https://www.linkedin.com/in/aamerzaheer/)
-      - Mimicked the facial expressions of the agent according to the expression of the voice
-      - "Technology Used: Large Language Models (LLMs), Embodied Conversational Agents (ECA), Facial Expression Recognition, Speech-to-Text (STT), Text-to-Speech (TTS), Unity, APIs, C#"
-    # image: "![](https://i.ibb.co/hX2wYLB/231321.webp)"
-
-
   - title: "Jump Point Search"
     description: 
       - In pursuit of solving the latency problem in finding paths in AA games complex 2D grid maps, engineered a new algorithm optimizing the A* algorithm by carefully only exploring those nodes which could be turning or jump points.  
       - On the grid of 10,000 * 10,000, Jump Point Search (JPS) is two magnitudes faster than A*. And it is solving big real-time latency problems in many projects.
       - "Technology Used: AI, C#, Jump Point Search (JPS), Pathfinding Optimization, 2D Grid-Based Navigation"
-    # image: "![](https://i.ibb.co/Ttb5Qn9/21321312.webp)"
     image: ""
+    thumbnail: "assets/Thumbnails/JPS_thumbnail.png"
+    video_url: "assets/videos/JPSvideo.mp4"
+  - title: "ChattyVR"
+    description: 
+      - Embodied Conversational Agent (ECA) developed based on a large language model, under the supervision of AI Scientist at Apple- [Dr. Aamer Zaheer](https://www.linkedin.com/in/aamerzaheer/)
+      - Mimicked the facial expressions of the agent according to the expression of the voice
+      - "Technology Used: Large Language Models (LLMs), Embodied Conversational Agents (ECA), Facial Expression Recognition, Speech-to-Text (STT), Text-to-Speech (TTS), Unity, APIs, C#"
+    thumbnail: "assets/Thumbnails/chattyVR_Thumbnail.jpg"
+    video_url: "assets/videos/chattyVRvideo.mp4"
   - title: "Boids" 
     description: 
       - Implemented a life program simulating the behavior of a flock of birds, school of fishes, or herd of land animals designed by Craig Reynolds in his paper '[Flocks, Herds, and Schools A Distributed Behavioral Model (1986)](https://dl.acm.org/doi/10.1145/37402.37406)'. The Program adds behaviors of Separation, Alignment, and Cohesion in NPCs.
-
       - "Technology Used: Boid Algorithm, Artificial Intelligence (AI), Behavior Simulation, NPC AI, Steering Behaviors (Separation, Alignment, Cohesion), Game Physics, Unity, C#"
     image: ""
-    thumbnail: "assets/files/WQCollage.png"
-    # video_url: "https://www.youtube.com/watch?v=EtNagNezo8w&ab_channel=AntonPidkuiko"
-    # video_url: "https://drive.google.com/file/d/1EF9DPNgq1LbWRNiyZdY_epwZZ8Q9Jc72/view"
-    video_url: "assets/videos/boids_compressed.mp4"
-    # image: "![](https://i.ibb.co/R9150c4/12421323.webp)"
+    thumbnail: "assets/Thumbnails/Boids_thumbnail.png"
+    video_url: "assets/videos/Boids video.mp4"
   - title: " [WrestleQuest](https://www.wrestlequest.com/en)"
     description: 
       - Optimized NPC Pathfinding to improve movement efficiency and reduce latency in complex game environments
