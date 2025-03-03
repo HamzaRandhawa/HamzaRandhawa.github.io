@@ -186,6 +186,23 @@ a { text-decoration:none; }
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     }
     
+    .play-button {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: rgba(0, 0, 0, 0.6);
+        color: white;
+        font-size: 50px;
+        width: 80px;
+        height: 80px;
+        line-height: 80px;
+        text-align: center;
+        border-radius: 20%;
+        pointer-events: none;
+        padding-left: 1%;
+    }
+
     // .play-button {
     //   position: absolute;
     //   top: 50%;
@@ -193,31 +210,15 @@ a { text-decoration:none; }
     //   transform: translate(-50%, -50%);
     //   background: rgba(0, 0, 0, 0.6);
     //   color: white;
-    //   font-size: 50px;
+    //   font-size: 40px; /* Adjust size */
     //   width: 80px;
     //   height: 80px;
-    //   line-height: 80px;
-    //   text-align: center;
-    //   border-radius: 20%;
+    //   display: flex;
+    //   justify-content: center;
+    //   align-items: center;
+    //   border-radius: 50%; /* Makes it a circle */
     //   pointer-events: none;
     // }
-
-    .play-button {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      background: rgba(0, 0, 0, 0.6);
-      color: white;
-      font-size: 40px; /* Adjust size */
-      width: 80px;
-      height: 80px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      border-radius: 50%; /* Makes it a circle */
-      pointer-events: none;
-    }
     
     /* Modal Styling */
     .video-modal {
