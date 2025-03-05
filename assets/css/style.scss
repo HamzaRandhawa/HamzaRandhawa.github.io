@@ -16,10 +16,12 @@
     --theme3-dim: #C8B887;
     --theme3-dark: #A8955A;
     --theme4-light: #AABEB6;
-    --theme4-medium: #7FA093;
+    --theme4-medium: #7FA093;    //     
     --theme4-dim: #5C8876;
     --theme4-dark: #3D725D;
     --font-dark: #202424;
+
+    --color-particles-background: #212529
 }
      // ---------------------------------------------------------------
 #particles-js
@@ -204,6 +206,7 @@ a { text-decoration:none; }
         position: relative;
         margin: 3rem auto;
         // background-color: var(--theme4-medium);
+        background-color: var(--color-particles-background);
 
         &:before {
             content:"";
@@ -213,6 +216,7 @@ a { text-decoration:none; }
             top: -4rem;
             left: 0;
             // background: var(--color-background);
+            background: var(--color-particles-background);
         }
     }
     .profile-zone .profile-img {
