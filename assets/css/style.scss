@@ -19,13 +19,13 @@
     --theme4-medium: #7FA093;    //     
     --theme4-dim: #5C8876;
     --theme4-dark: #3D725D;
-    // --font-dark: #202424;
+    --font-dark: #202424;
 
-    --font-dark: #dee2e6;
-    // Dark Mode
-    --color-particles-background: #212529;
-    --oc-gray-3: #dee2e6;
-    --color-text: #dee2e6;   
+    // --font-dark: #dee2e6;
+    // // Dark Mode
+    // --color-particles-background: #212529;
+    // --oc-gray-3: #dee2e6;
+    // --color-text: #dee2e6;   
         
 }
      // ---------------------------------------------------------------
@@ -210,8 +210,8 @@ a { text-decoration:none; }
         width: 100%;
         position: relative;
         margin: 3rem auto;
-        // background-color: var(--theme4-medium);
-        background-color: var(--color-particles-background);
+        background-color: var(--theme4-medium);
+        // background-color: var(--color-particles-background);
 
         &:before {
             content:"";
@@ -220,8 +220,8 @@ a { text-decoration:none; }
             height: 4rem;
             top: -4rem;
             left: 0;
-            // background: var(--color-background);
-            background: var(--color-particles-background);
+            background: var(--color-background);
+            // background: var(--color-particles-background);
         }
     }
     .profile-zone .profile-img {
