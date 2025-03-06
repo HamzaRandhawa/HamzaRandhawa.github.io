@@ -9,7 +9,7 @@ contents:
       - "Technology Used: AI, C#, Jump Point Search (JPS), Pathfinding Optimization, 2D Grid-Based Navigation"
     image: ""
     thumbnail: "assets/Thumbnails/JPS_thumbnail.png"
-    video_url: "assets/videos/JPSvideo.mp4"
+    video_url: "assets/videos/JPS_video_new.mp4"
   - title: "ChattyVR"
     description: 
       - Embodied Conversational Agent (ECA) developed based on a large language model, under the supervision of AI Scientist at Apple- [Dr. Aamer Zaheer](https://www.linkedin.com/in/aamerzaheer/)
