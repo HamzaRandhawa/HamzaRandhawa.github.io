@@ -139,7 +139,7 @@
                           </li>
                           {% endfor %}
                         </ul>
-                      {% else %}
+                      {% elsif item[0] != "thumbnail"  %}
                         {{ item[1] | markdownify }}
                       {% endif %}
                     {% endif %}
