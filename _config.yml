@@ -15,6 +15,7 @@ twitter_username: iHamzaRandhawa
 leetcode_username: HamzaRNoor
 youtube_username: youtube
 blog_url: application
+resume: Resume
 
 # If your repo name follows the format "<user-name>.github.io", then leave the below blank.
 # Otherwise, set its value as "/<repo-name>". ex) baseurl: /resume
