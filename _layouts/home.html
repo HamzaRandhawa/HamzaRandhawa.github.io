@@ -103,6 +103,12 @@
             <div><span>{{ site.blog_url }}</span></div>
           </a></li>
         {% endif %}
+        {% if site.resume %}
+          <li><a aria-label="CV / Résumé" href="{{ assets/files/Hamza's Résumé- 2024.pdf }}">
+            <img src="{{ 'assets/img/cv.png' | prepend: site.baseurl }}" alt="My Resume">
+            <div><span>{{ CV / Résumé }}</span></div>
+          </a></li>
+        {% endif %}
       </ul>
     </div>
     <div class="name-zone">
