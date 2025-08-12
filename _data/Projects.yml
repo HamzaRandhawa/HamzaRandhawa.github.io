@@ -32,17 +32,20 @@ contents:
       - Conducted performance profiling using Unity Profiler to identify and eliminate bottlenecks, improving frame rates and responsiveness.
       - "Technology Used: Unity, C#, Pathfinding Optimization, Physics Optimization, NPC AI, Performance Profiling, Debugging, Game Development"
     thumbnail: "assets/img/WQCollage_small.png"
+    site_url: "https://www.wrestlequest.com/en"
     image: "![](assets/img/WQCollage_small.png)"
   - title: " [Life in Willowdale: Farm Adventures](https://www.frag-games.com/games/life-in-willowdale)"
     description: 
       - Implemented the features of Engine-building using in-game resources from metadata. 
       - Implemented the shortest path-finding feature.
       - "Technology Used: Unity, C#, Pathfinding Optimization, NPC AI, Game Development"
+    site_url: "https://www.frag-games.com/games/life-in-willowdale"
     thumbnail: "assets/img/Life_In_Willowdale.webp"
     image: "![](assets/img/Life_In_Willowdale.webp)"
   - title: " [Antara Rainders & Royals](https://www.frag-games.com/games/antara-raiders-and-royale)"
     description: 
       - Implemented troops spawning, troops attacking, and troops movement to target positions following the shortest path with movement in an organized, team-like way using boid algorithm. 
       - "Technology Used: Unity, C#, NPC AI, Game Development"
+    site_url: "https://www.frag-games.com/games/antara-raiders-and-royale"
     thumbnail: "assets/img/Antara_Main.webp"
     image: "![](assets/img/Antara_Main.webp)"
