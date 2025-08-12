@@ -24,7 +24,7 @@ contents:
     # image: ""
     thumbnail: "assets/Thumbnails/Boids_thumbnail.png"
     video_url: "assets/videos/Boids video.mp4"
-  - title: " [WrestleQuest](https://www.wrestlequest.com/en)"
+  - title: " [WrestleQuest](https://megacatstudios.com/pages/wrestlequest?srsltid=AfmBOorjt0XSe0Ateay27XE5k2sosEsTw1r7NIUDi0Dsub6Mfxw3seqB)"
     description: 
       - Optimized NPC Pathfinding to improve movement efficiency and reduce latency in complex game environments.
       - Resolved critical physics performance issues by optimizing collision detection and rigid body interactions, ensuring smoother gameplay.
@@ -32,7 +32,7 @@ contents:
       - Conducted performance profiling using Unity Profiler to identify and eliminate bottlenecks, improving frame rates and responsiveness.
       - "Technology Used: Unity, C#, Pathfinding Optimization, Physics Optimization, NPC AI, Performance Profiling, Debugging, Game Development"
     thumbnail: "assets/img/WQCollage_small.png"
-    site_url: "https://www.wrestlequest.com/en"
+    site_url: "https://megacatstudios.com/pages/wrestlequest?srsltid=AfmBOorjt0XSe0Ateay27XE5k2sosEsTw1r7NIUDi0Dsub6Mfxw3seqB"
     image: "![](assets/img/WQCollage_small.png)"
   - title: " [Life in Willowdale: Farm Adventures](https://www.frag-games.com/games/life-in-willowdale)"
     description: 
