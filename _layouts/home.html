@@ -160,7 +160,11 @@
                       {% elsif item[0] != "thumbnail"  %}
                         {{ item[1] | markdownify }}
                         {% if item[0] == "image" and item[1] %}
-                          <a href="{{ project.url }}" target="_blank" class="info-button">iiii</a>
+                          <a href="{{ member.site_url }}" target="_blank" class="video-thumbnail-container">
+                            <img src="{{ member.thumbnail }}" alt="Visit Site" class="video-thumbnail">
+                            <div class="play-button">▶</div>
+                          </a>
+                          
                         {% endif %}
                       {% endif %}
                     {% endif %}
