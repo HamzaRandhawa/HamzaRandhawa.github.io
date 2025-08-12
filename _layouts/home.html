@@ -159,6 +159,7 @@
                         </ul>
                       {% elsif item[0] != "thumbnail"  %}
                         {{ item[1] | markdownify }}
+                        <a href="{{ project.url }}" target="_blank" class="info-button">i</a>
                       {% endif %}
                     {% endif %}
                   {% endfor %}
