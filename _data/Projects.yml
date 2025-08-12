@@ -12,8 +12,8 @@ contents:
     video_url: "assets/videos/JPS_video_new.mp4"
   - title: "ChattyVR"
     description: 
-      - Embodied Conversational Agent (ECA) developed based on a large language model, under the supervision of AI Scientist at Apple- [Dr. Aamer Zaheer](https://www.linkedin.com/in/aamerzaheer/)
-      - Mimicked the facial expressions of the agent according to the expression of the voice
+      - Embodied Conversational Agent (ECA) developed based on a large language model, under the supervision of AI Scientist at Apple- [Dr. Aamer Zaheer](https://www.linkedin.com/in/aamerzaheer/).
+      - Mimicked the facial expressions of the agent according to the expression of the voice.
       - "Technology Used: Large Language Models (LLMs), Embodied Conversational Agents (ECA), Facial Expression Recognition, Speech-to-Text (STT), Text-to-Speech (TTS), Unity, APIs, C#"
     thumbnail: "assets/Thumbnails/chattyVR_Thumbnail.jpg"
     video_url: "assets/videos/chattyVRvideo.mp4"
@@ -26,8 +26,8 @@ contents:
     video_url: "assets/videos/Boids video.mp4"
   - title: " [WrestleQuest](https://www.wrestlequest.com/en)"
     description: 
-      - Optimized NPC Pathfinding to improve movement efficiency and reduce latency in complex game environments
-      - Resolved critical physics performance issues by optimizing collision detection and rigid body interactions, ensuring smoother gameplay
+      - Optimized NPC Pathfinding to improve movement efficiency and reduce latency in complex game environments.
+      - Resolved critical physics performance issues by optimizing collision detection and rigid body interactions, ensuring smoother gameplay.
       - Debugged and fixed game-breaking bugs during the release phase, enhancing overall game stability and player experience.
       - Conducted performance profiling using Unity Profiler to identify and eliminate bottlenecks, improving frame rates and responsiveness.
       - "Technology Used: Unity, C#, Pathfinding Optimization, Physics Optimization, NPC AI, Performance Profiling, Debugging, Game Development"
@@ -36,6 +36,10 @@ contents:
     description: 
       - Implemented the features of Engine-building using in-game resources from metadata. 
       - Implemented the shortest path-finding feature.
-
       - "Technology Used: Unity, C#, Pathfinding Optimization, NPC AI, Game Development"
     image: "![](assets/img/Life_In_Willowdale.webp)"
+  - title: " [Antara Rainders & Royals](https://www.frag-games.com/games/antara-raiders-and-royale)"
+    description: 
+      - Implemented troops spawning, troops attacking, and troops movement to target positions following the shortest path with movement in an organized, team-like way using boid algorithm. 
+      - "Technology Used: Unity, C#, NPC AI, Game Development"
+    image: "![](assets/img/Antara_Main.webp)"
