@@ -17,6 +17,9 @@ youtube_username: youtube
 blog_url: application
 resume: Resume
 
+image: /assets/files/profile_pic_4.png
+logo: /assets/files/profile_pic_4.png
+
 # If your repo name follows the format "<user-name>.github.io", then leave the below blank.
 # Otherwise, set its value as "/<repo-name>". ex) baseurl: /resume
 baseurl:
