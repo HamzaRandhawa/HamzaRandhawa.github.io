@@ -2,7 +2,7 @@ subject: Research Interests
 listing-order: 0
 icon: "/assets/img/lightbulb.svg"
 contents:
-  - title: "Deep Learning - Reinforcement Learning"
+  # - title: "Deep Learning - Reinforcement Learning"
     # description: 
     #   - Embodied Conversational Agent (ECA) developed based on a large language model, under the supervision of AI Scientist at Apple- [Dr. Aamer Zaheer](https://www.linkedin.com/in/aamerzaheer/)
     #   - Mimicked the facial expressions of the agent according to the expression of the voice
