@@ -2,13 +2,16 @@ subject: Research Interests
 listing-order: 0
 icon: "/assets/img/lightbulb.svg"
 contents:
-  - title: "Deep Learning"
+  - title: "Deep Learning - Reinforcement Learning"
     # description: 
     #   - Embodied Conversational Agent (ECA) developed based on a large language model, under the supervision of AI Scientist at Apple- [Dr. Aamer Zaheer](https://www.linkedin.com/in/aamerzaheer/)
     #   - Mimicked the facial expressions of the agent according to the expression of the voice
     #   - "Technology Used: Large Language Models (LLMs), Embodied Conversational Agents (ECA), Facial Expression Recognition, Speech-to-Text (STT), Text-to-Speech (TTS), Unity, APIs, C#"
     # image: "![](https://i.ibb.co/hX2wYLB/231321.webp)"
-  - title: "Reinforcement Learning"
+  # - title: "Reinforcement Learning"
+  - title: "Virtual Characters"
+  - title: "Agent-Based Modelling"
+  - title: "Crowd Simulation"
     # description: 
     #   - In pursuit of solving the latency problem in finding paths in AA games complex 2D grid maps, engineered a new algorithm optimizing the A* algorithm by carefully only exploring those nodes which could be turning or jump points.  
     #   - On the grid of 10,000 * 10,000, Jump Point Search (JPS) is two magnitudes faster than A*. And it is solving big real-time latency problems in many projects.
@@ -22,7 +25,7 @@ contents:
     #   - "Technology Used: Boid Algorithm, Artificial Intelligence (AI), Behavior Simulation, NPC AI, Steering Behaviors (Separation, Alignment, Cohesion), Game Physics, Unity, C#"
     # image: ""
     # image: "![](https://i.ibb.co/R9150c4/12421323.webp)"
-  - title: "Generative AI"
+  - title: "GenAI for Games"
     # description: 
     #   - Optimized NPC Pathfinding to improve movement efficiency and reduce latency in complex game environments
     #   - Resolved critical physics performance issues by optimizing collision detection and rigid body interactions, ensuring smoother gameplay
