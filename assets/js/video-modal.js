@@ -40,21 +40,21 @@
 // };
 // ----------------------------------
 
-function openVideoModal(videoUrl, updateUrl = true) {
-  const modal = document.getElementById("videoModal");
-  const iframe = document.getElementById("videoFrame");
 
-  // Convert relative video paths into full URLs
+function openVideoModal(videoUrl, updateUrl = true) {
+  const iframe = document.getElementById("videoFrame");
+  const modal = document.getElementById("videoModal");
+
+  // Resolve the video URL
   const url = new URL(videoUrl, window.location.href);
 
   if (!["http:", "https:"].includes(url.protocol)) return;
 
-  // Support Google Drive video sharing links
   let playableUrl = url.href;
 
+  // Support Google Drive videos
   if (url.hostname === "drive.google.com") {
     const match = url.pathname.match(/\/file\/d\/([^/]+)/);
-
     if (match) {
       playableUrl =
         "https://drive.google.com/file/d/" + match[1] + "/preview";
@@ -64,32 +64,27 @@ function openVideoModal(videoUrl, updateUrl = true) {
   iframe.src = playableUrl;
   modal.style.display = "flex";
 
-  // Update browser URL for sharing
+  // NEW: Make the opened video shareable through the browser URL
   if (updateUrl) {
     const pageUrl = new URL(window.location.href);
     pageUrl.searchParams.set("video", videoUrl);
-
-    window.history.pushState({}, "", pageUrl);
-  }
-}
-
-function closeVideoModal(updateUrl = true) {
-  const modal = document.getElementById("videoModal");
-  const iframe = document.getElementById("videoFrame");
-
-  iframe.src = "";
-  modal.style.display = "none";
-
-  // Remove video parameter from browser URL
-  if (updateUrl) {
-    const pageUrl = new URL(window.location.href);
-    pageUrl.searchParams.delete("video");
-
     window.history.replaceState({}, "", pageUrl);
   }
 }
 
-// Automatically open video if URL contains ?video=
+function closeVideoModal(updateUrl = true) {
+  document.getElementById("videoFrame").src = "";
+  document.getElementById("videoModal").style.display = "none";
+
+  // NEW: Remove the video parameter when closing
+  if (updateUrl) {
+    const pageUrl = new URL(window.location.href);
+    pageUrl.searchParams.delete("video");
+    window.history.replaceState({}, "", pageUrl);
+  }
+}
+
+// NEW: Automatically open the video from a shared website link
 document.addEventListener("DOMContentLoaded", function () {
   const params = new URLSearchParams(window.location.search);
   const videoUrl = params.get("video");
@@ -99,7 +94,7 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 });
 
-// Keep the modal synchronized with browser back/forward
+// Keep the modal in sync with browser navigation
 window.addEventListener("popstate", function () {
   const params = new URLSearchParams(window.location.search);
   const videoUrl = params.get("video");
@@ -111,8 +106,8 @@ window.addEventListener("popstate", function () {
   }
 });
 
-// Close modal by clicking outside it
-document.addEventListener("click", function (event) {
+// Close modal when clicking outside the video
+window.addEventListener("click", function (event) {
   const modal = document.getElementById("videoModal");
 
   if (event.target === modal) {
@@ -120,11 +115,16 @@ document.addEventListener("click", function (event) {
   }
 });
 
-// Close modal with Escape key
+// NEW: Close modal with Escape key
 document.addEventListener("keydown", function (event) {
-  const modal = document.getElementById("videoModal");
+  if (event.key === "Escape") {
+    const modal = document.getElementById("videoModal");
 
-  if (event.key === "Escape" && modal.style.display === "flex") {
-    closeVideoModal();
+    if (modal.style.display === "flex") {
+      closeVideoModal();
+    }
   }
 });
+
+
+})
