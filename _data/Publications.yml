@@ -25,7 +25,7 @@ contents:
     ref:
       - '[1] **Hamza Noor**, “[Realistic Trail Following Behavior in a Dynamically Deformable Terrain using Terrain-Based Penalty Fields](https://onlinelibrary.wiley.com/doi/10.1002/cav.70149),” *in Computer Animation and Virtual Worlds*, 2026.'
     thumbnail: "assets/Thumbnails/Boids_thumbnail.png"
-    video_url: "assets/videos/Boids video.mp4"
+    video_url: "assets/videos/Trail-Following-CASA.mp4"
 
   - title: Conference
     ref:
